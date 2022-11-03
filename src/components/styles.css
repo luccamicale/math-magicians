@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 .container {
@@ -10,9 +10,8 @@ body {
   margin: 0 auto;
   width: 256px;
   text-align: center;
-  border: 10px solid;
-  background-color: beige;
-  border-radius: 5px;
+  border: 1px solid;
+  border-radius: 1px;
 }
 
 .keypad {
@@ -21,10 +20,10 @@ body {
   grid-auto-rows: minmax(60px, auto);
 }
 
-input {
+.input {
   height: 75px;
   width: 249px;
-  background-color: rgb(124, 118, 116);
+  background-color: rgb(255, 255, 255);
 }
 
 #cero {
