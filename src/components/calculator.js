@@ -3,7 +3,7 @@ import calculate from '../Logic/calculate';
 import './styles.css';
 
 const Calculator = () => {
-  const [count, setCount] = useState({
+  const [count, setCount] = useState({ //count actualiza nuetsro componente y setcount es una funcion que podemos llamar cuando queremos actualizar usestate
     total: 0,
     next: null,
     operation: null,
