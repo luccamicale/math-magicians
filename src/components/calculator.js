@@ -14,7 +14,7 @@ const Calculator = () => {
     const result = calculate(count, data);
     setCount(result);
   };
-
+  
   const { total, next, operation } = count;
   return (
     <div className="container">
@@ -22,6 +22,7 @@ const Calculator = () => {
         {total}
         {operation}
         {next}
+
       </div>
       <div className="keypad">
         <button onClick={onClickHandler} type="button" name="A/C">AC</button>
