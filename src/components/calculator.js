@@ -1,35 +1,34 @@
 import React from 'react';
 import calculate from '../Logic/calculate';
-import './styles.css'
+import './styles.css';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      total: 0,
+      total: null,
       next: null,
       operation: null,
     };
-    this.onClickHandler = (e) => {
-      const data = e.target.innerHTML;
-      const result = calculate(this.state, data);
-      this.setState(result);
-    };
   }
+
+  onClickHandler = (e) => {
+    const data = e.target.innerHTML;
+    const result = calculate(this.state, data);
+    this.setState(result);
+  };
 
   render() {
     const { total, next, operation } = this.state;
     return (
       <div className="container">
         <div className="input">
-          <p>
-            {total}
-            {operation}
-            {next}
-          </p>
+          {total}
+          {operation}
+          {next}
         </div>
         <div className="keypad">
-          <button onClick={this.onClickHandler} type="button" name="A/C">A/C</button>
+          <button onClick={this.onClickHandler} type="button" name="A/C">AC</button>
           <button onClick={this.onClickHandler} type="button" name="+/-">+/-</button>
           <button onClick={this.onClickHandler} type="button" name="%">%</button>
           <button onClick={this.onClickHandler} type="button" id="divide" name="÷">÷</button>
