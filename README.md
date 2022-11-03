@@ -9,6 +9,7 @@
 
 - React
 - Frameworks
+- CSS
 
 ## Live Demo (if available)
 
