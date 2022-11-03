@@ -9,7 +9,6 @@
 
 - React
 - Frameworks
-- Technologies used
 
 ## Live Demo (if available)
 
