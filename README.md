@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link] (https://luccamicale.github.io/math-magicians/)
+[Live Demo Link] (https://luccamicale.github.io)
 
 
 ## Getting Started
