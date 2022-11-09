@@ -1,4 +1,6 @@
-exports[`Render Quote 1`] =`
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Quote 1`] = `
 <div className="main-container-quote">
     <div className="quote-container">
       <span className="span">
@@ -9,4 +11,4 @@ exports[`Render Quote 1`] =`
       </span>
     </div>
   </div>
-`
+`;

@@ -1,3 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`render Home 1`] = `
 <div className="main-cont">
     <div className="home-cont">
@@ -29,4 +31,4 @@ exports[`render Home 1`] = `
       </p>
     </div>
   </div>
-`
+`;

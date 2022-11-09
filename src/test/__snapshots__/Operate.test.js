@@ -1,3 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`Render Calculator 1`] = `
 <div className="big-container">
       <div className="main-container">
