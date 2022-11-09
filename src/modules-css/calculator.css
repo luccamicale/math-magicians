@@ -3,8 +3,8 @@ body {
 }
 
 .container {
-  top: 50%;
-  left: 50%;
+  top: 60%;
+  left: 65%;
   position: absolute;
   transform: translate(-50%, -50%);
   margin: 0 auto;
@@ -12,6 +12,7 @@ body {
   text-align: center;
   border: 1px solid;
   border-radius: 1px;
+  box-shadow: 5px 5px 5px 2px black;
 }
 
 .keypad {
@@ -24,6 +25,10 @@ body {
   height: 75px;
   width: 249px;
   background-color: rgb(255, 255, 255);
+  text-align: right;
+  margin-top: 22px;
+  font-size: 24px;
+  margin-right: 26px;
 }
 
 #cero {
@@ -49,4 +54,9 @@ body {
 
 #divide {
   background-color: coral;
+}
+
+.title-cal {
+  margin-left: 10%;
+  margin-top: -35%;
 }
