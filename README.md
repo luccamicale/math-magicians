@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link] (https://luccamicale.github.io)
+[Live Demo Link](https://leafy-salmiakki-81bdef.netlify.app/)
 
 
 ## Getting Started
