@@ -1,7 +1,6 @@
 import renderer from 'react-test-renderer';
 import Operate from '../logic/operate';
 import Calculator from '../pages/calculator';
-import userEvent from '@testing-library/user-event';
 
 test('Render Calculator', () => {
   const renderCalculator = renderer.create(<Calculator />).toJSON();

@@ -1,21 +1,18 @@
-import { render, screen } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
-import userEvent from '@testing-library/user-event';
-import App from '../App';
 import operate from '../logic/operate';
 import Header from '../components/nav';
 import Calculator from '../pages/calculator';
 
-test('Render Home and check quote text', async () => {
-  render(<App />, { wrapper: BrowserRouter });
-  const user = userEvent.setup();
+// test('Render Home and check quote text', async () => {
+//   render(<App />, { wrapper: BrowserRouter });
+//   const user = userEvent.setup();
 
-  expect(screen.getByText(/calculator/i)).toBeInTheDocument();
+//   expect(screen.getByText(/calculator/i)).toBeInTheDocument();
 
-  await user.click(screen.getByText(/quote/i));
-  expect(screen.getByText(/- William Thurston/i)).toBeInTheDocument();
-});
+//   await user.click(screen.getByText(/quote/i));
+//   expect(screen.getByText(/- William Thurston/i)).toBeInTheDocument();
+// });
 
 test('Render NavBar', () => {
   const renderHeader = renderer.create(<BrowserRouter><Header /></BrowserRouter>).toJSON();
