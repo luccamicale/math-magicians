@@ -57,6 +57,8 @@ describe('Testing', () => {
     expect(element).toBe('36');
   });
 
+  
+
   it('See if the result of the operation 46/6 is 7.666', async () => {
     render(<Calculator />);
     await userEvent.click(screen.getByRole('button', {
