@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import Calculator from './pages/calculator';
 
 class App extends React.Component {
@@ -11,6 +12,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Calculator />
+        <NavLink />
       </div>
     );
   }

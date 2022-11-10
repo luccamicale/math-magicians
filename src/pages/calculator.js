@@ -20,7 +20,7 @@ const Calculator = () => {
     <div className="main-container">
       <h1 className="title-cal">Let s do some math!</h1>
       <div className="container">
-        <div className="input">
+        <div data-testid="testH2" className="input">
           {total}
           {operation}
           {next}
