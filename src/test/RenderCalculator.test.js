@@ -1,5 +1,5 @@
 import renderer from 'react-test-renderer';
-import Operate from '../logic/operate';
+import Operate from '../logic/operate.js';
 import Calculator from '../pages/calculator';
 
 test('Render Calculator', () => {
