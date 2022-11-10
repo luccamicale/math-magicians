@@ -2,7 +2,7 @@
 // import { renderer } from 'react-test-renderer';
 // import { BrowserRouter } from 'react-router-dom';
 // import userEvent from '@testing-library/user-event';
-import operate from '../logic/operate.js';
+import operate from '../logic/operate';
 // import Header from '../components/nav';
 // import Calculator from '../pages/calculator';
 // import App from '../App';
