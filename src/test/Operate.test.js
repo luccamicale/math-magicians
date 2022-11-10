@@ -1,3 +1,4 @@
+/* eslint-disable */
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
 import operate from '../logic/operate';
