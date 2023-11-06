@@ -14,7 +14,7 @@ const Header = () => (
         </li>
         <li className="link-item">
           <NavLink to="/calculator">
-            About
+            Calculator
           </NavLink>
         </li>
         <li className="link-item">

@@ -1,5 +1,11 @@
+body {
+  background-color: floralwhite;
+}
+
 .welcome {
   margin-top: -36%;
+  color: green;
+  font-size: 30px;
 }
 
 .paragragh-one {

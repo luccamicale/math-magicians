@@ -1,4 +1,5 @@
 import '../modules-css/quote.css';
+import libros from '../icons/libros.png';
 
 const Quote = () => (
   <div className="main-container-quote">
@@ -6,9 +7,10 @@ const Quote = () => (
       <span className="span">
         Mathematics is not about numbers, equations, computations,
         or algorithms: it is about understanding.
-        <hr />
+        <hr style={{marginLeft: '-30px'}} />
         <strong className="strong">- William Paul Thurston</strong>
       </span>
+      <img src={libros} alt='libros'></img>
     </div>
   </div>
 );

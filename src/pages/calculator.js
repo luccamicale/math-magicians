@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import calculate from '../Logic/calculate';
 import '../modules-css/calculator.css';
+import novato from '../icons/novato.png'
 
 const Calculator = () => {
   const [count, setCount] = useState({
@@ -19,6 +20,7 @@ const Calculator = () => {
   return (
     <div className="main-container">
       <h1 className="title-cal">Let s do some math!</h1>
+      <img style={{marginLeft: '165px'}} src={novato} alt='novato' width={'380px'}></img>
       <div className="container">
         <div data-testid="testH2" className="input">
           {total}
