@@ -20,3 +20,24 @@ body {
   margin-left: 4%;
   margin-right: 4%;
 }
+
+.text-one {
+  width: 50%;
+  margin-left: 40%;
+  border: 1px solid;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 5px 5px 5px 5px;
+  background-color: #faf0ca;
+}
+
+.text-two {
+  width: 50%;
+  margin-left: 40%;
+  border: 1px solid;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 5px 5px 5px 5px;
+  background-color: #faf0ca;
+  margin-top: -180px;
+}
