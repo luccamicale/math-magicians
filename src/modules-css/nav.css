@@ -2,6 +2,8 @@
   margin-top: 3%;
   margin-left: 3%;
   font-size: 40px;
+  color: #ffb703;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .ul-nav {
@@ -10,17 +12,20 @@
   list-style-type: none;
   margin-left: 900px;
   margin-top: -55px;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .link-item {
   margin-right: 50px;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .footer {
   height: 20px;
   background-color: rgb(204, 198, 198);
-  margin-top: 40%;
+  margin-top: 38%;
   font-size: 20px;
   box-shadow: 5px 5px 5px 2px black;
 }
