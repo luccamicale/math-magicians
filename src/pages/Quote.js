@@ -7,10 +7,10 @@ const Quote = () => (
       <span className="span">
         Mathematics is not about numbers, equations, computations,
         or algorithms: it is about understanding.
-        <hr style={{marginLeft: '-30px'}} />
+        <hr style={{ marginLeft: '-30px' }} />
         <strong className="strong">- William Paul Thurston</strong>
       </span>
-      <img src={libros} alt='libros'></img>
+      <img src={libros} alt="libros" />
     </div>
   </div>
 );
